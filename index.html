@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>WikiViewer</title>
+
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="wiki.css">
+
+  </head>
+  <body>
+      <div id="searcher">
+          <h3 class="text-center">WikiViewer</h3>
+          <h5>Enter a search term below or click
+              <a href="https://en.wikipedia.org/wiki/Special:Random"
+              target="_blank">here</a> for a random article</h5>
+      <div class="input-group">
+      <input type="text" class="form-control" placeholder="Search" id="searchTerm">
+      <div class="input-group-btn">
+        <button class="btn btn-default" onclick="search()"><i class="glyphicon glyphicon-search"></i></button>
+      </div>
+    </div>
+    <a class="text-center" href="https://github.com/NehemiahK/" target="_blank">
+         <img height ="40px"src="https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png">
+     </a>
+</div>
+<div id= 'results'></div>
+<script src="wiki.js">
+
+</script>
+  </body>
+</html>
