@@ -8,15 +8,12 @@ function search(){
 
 $("#searchTerm").on("keydown",function(e){
     if (e.keyCode === 13){
-        alert("works");
         search();
     }
 })
 
 function displayResults(link){
     $.get(link, function(data){
-
-        console.log(data[1]);
 
         for (var i=0;i<data[1].length; i++){
 
